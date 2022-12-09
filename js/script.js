@@ -127,7 +127,7 @@ function buildAndShowHomeHTML (categories) {
       producedHtml += "<section class='row'>";*/
       var homeHtmlToInsertIntoMainPage = 
         insertProperty(homeHtml,
-                      "catShortName",
+                      "short_name",
                       chosenCategoryShortName.short_name);
       /*producedHtml += homeHtmlToInsertIntoMainPage;
       producedHtml += "</section>";*/
